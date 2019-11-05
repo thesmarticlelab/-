@@ -1,0 +1,87 @@
+body {
+    background:white rbg(100, 97, 97);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+
+}
+header {
+
+    background:white;
+    padding: 20px;
+    height:400px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+header a{
+    color: black;
+    text-decoration: none;
+    text-transform:first uppercase then lowercase;
+    margin-top:none;
+}
+header .logo a {
+    background-image:url("images/Smarticle\ Lab.png");
+    background-size: 400px;
+    background-repeat: no-repeat;
+    display:inline-block;
+    height:300px;
+    position: relative;
+    top:-75px;
+    text-indent:-999999999px;
+    width:1000px;
+}
+pre {
+    display: block;
+    font-family: 'Monton', 'Arial Narrow', Arial, sans-serif;
+    color: navy;
+    white-space: pre;
+    margin: 1em 0;
+  }
+section {
+    background: rgb(2, 204, 240);
+    color:navy;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+p{
+    font-family: fantasy;
+    font-size: larger;
+    direction: ltr;
+    text-align: justify;
+    text-indent: 100px;
+    font-weight: bold;
+}
+
+div{
+    background: none;
+    margin:auto;
+    width: 100px;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+li{
+    display:inline-block;
+    margin-right: 20px;
+}
+footer{
+    background: black;
+    padding: 20px;
+    color:white;
+}
+.column {
+    float: left;
+    width: 50%;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
